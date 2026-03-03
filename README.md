@@ -24,4 +24,4 @@ This is a small web application that gathers news from RSS feeds, scrapes the ar
 - Tied everything together into a full-stack setup. 
 
 ### Future plans
-I want to deploy this app to a proper website, improve the codebase, make better use of the metadata I'm currently collecting, and extend the range of regions and topics to generate richer digests. As the project grows, these changes will help reinforce my understanding of OOP and give me more experience with deploying and maintaining a small web application.
+I want to deploy this app to a proper website, improve the codebase, make better use of the metadata I'm currently collecting, and extend the range of regions and topics to generate richer digests. As the project grows, these changes will help reinforce my understanding of OOP and give me more experience with deploying and maintaining a small web application. 
