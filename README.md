@@ -4,6 +4,8 @@
 ### About this project
 This is a small web application that gathers news from RSS feeds, scrapes the articles, and sends the text to an AI model to generate a short news summary. User selects a region and topic, and the backend fetches the feeds, parses the XML, gets the article text then AI turns it into a simple summary. I used AI and common online resources whenever I hit concepts I was unfamiliar with. 
 
+To determine the most trusted new sources, I used a you.gov article entitle Trust in Media 2025: Which news sources Americans use and trust. I only considered popular news outlets with a +10 or more.
+
 ### Tech Stack
 - Python (Flask, BeautifulSoup, requests, xml.etree)
 - Groq API
@@ -22,6 +24,10 @@ This is a small web application that gathers news from RSS feeds, scrapes the ar
 - Applied basic algorythmic patterns including iteration and aggregation. Turning RSS data into usable text.
 - Intergrated an AI model into a pipeline.
 - Tied everything together into a full-stack setup. 
+
+### Challenges I worked through
+- Finding reliable RSS feeds was difficult, as many major outlets don't provide them, made consistent coverage difficult.
+- Accidentally sending far more text than the API allowed. To fix this I limited the generated text from uncapped to 350.
 
 ### Future plans
 I want to deploy this app to a proper website, improve the codebase, make better use of the metadata I'm currently collecting, and extend the range of regions and topics to generate richer digests. As the project grows, these changes will help reinforce my understanding of OOP and give me more experience with deploying and maintaining a small web application. 
