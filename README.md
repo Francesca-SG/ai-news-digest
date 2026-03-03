@@ -16,7 +16,7 @@ This is a small web application that gathers news from RSS feeds, scrapes the ar
 - Working with core data structures like lists and dictionaries, moving data cleanly through the pipeline.
 - Applied basic algorythmic patterns including iteration and aggregation. Turning RSS data into usable text.
 - Intergrated an AI model into a pipeline.
-- Tied everything together into a full-stack setup.
+- Tied everything together into a full-stack setup. 
 
 
 ### Tech Used
