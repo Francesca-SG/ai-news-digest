@@ -29,11 +29,16 @@ This is a small web application that gathers news from RSS feeds, scrapes the ar
 - Accidentally sending far more text than the API allowed. To fix this I limited the generated text from uncapped to 350.
 ***
 ## 🚀 Future plans
-I want to deploy this app to a proper website, improve the codebase, make better use of the metadata I'm currently collecting, and extend the range of regions and topics to generate richer digests. As the project grows, these changes will help reinforce my understanding of OOP and give me more experience with deploying and maintaining a small web application. 
+I want to deploy this app to a proper website, with a clean design, improve the codebase, make better use of the metadata I'm currently collecting, and extend the range of regions and topics to generate richer digests. As the project grows, these changes will help reinforce my understanding of OOP and give me more experience with deploying and maintaining a small web application. 
 
-The AI occasionally over explains, adding extra details that aren't unnecessary for the final summary. To address this, I plan to introduce stricter prompt templates and a simple processing layer to clean up any anomalous outputs.
-
-### Notes
+The AI occasionally over explains, adding extra details that aren't necessary for the final summary. To address this, I plan to introduce stricter prompt templates and a simple processing layer to clean up any anomalous outputs. There is also a limit on the size of the combined articles that can be sent to the AI for summarisation. As a result, the summary sometimes ends up relying on a single source. I plan to fix this by summarising articles individually and then generating a combined summary. This will ensure multiple sources are represented and reduce single source bias.
+***
+## 🖼️ Screenshots
+Below are images of the application in action. 
+<img width="741" height="199" alt="Screenshot 2026-03-04 075515" src="https://github.com/user-attachments/assets/177885ec-eedd-47d0-8c24-77bcd7efdd00" />
+<img width="739" height="175" alt="Screenshot 2026-03-04 075634" src="https://github.com/user-attachments/assets/28baa13f-e6e9-4826-a4b6-c68d1c22b177" />
+***
+### 🗒️ Notes
 - To determine the most trusted new sources, I used a you.gov article entitle Trust in Media 2025: Which news sources Americans use and trust. I only considered popular news outlets with a +10 or more.
 - I used AI and common online resources whenever I hit concepts I was unfamiliar with. 
 
