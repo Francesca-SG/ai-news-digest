@@ -1,4 +1,4 @@
-# AI-Driven Daily News Digest 
+# 🤖📰 AI-Driven Daily News Digest 
 > An AI-powered news digest using live feeds from trusted news sources.
 ***
 ## About this project
