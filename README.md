@@ -29,7 +29,7 @@ This is a small web application that gathers news from RSS feeds, scrapes the ar
 - Accidentally sending far more text than the API allowed. To fix this I limited the generated text from uncapped to 350.
 ***
 ## 🚀 Future plans
-I want to deploy this app to a proper website, with a clean design, improve the codebase, make better use of the metadata I'm currently collecting, and extend the range of regions and topics to generate richer digests. As the project grows, these changes will help reinforce my understanding of OOP and give me more experience with deploying and maintaining a small web application. 
+I want to deploy this app to a proper website, as well as improve the overall look and feel of the site. Additionally, I plan to improve the codebase, make better use of the metadata I'm currently collecting, and extend the range of regions and topics to generate richer digests. As the project grows, these changes will help reinforce my understanding of OOP and give me more experience with deploying and maintaining a small web application. 
 
 The AI occasionally over explains, adding extra details that aren't necessary for the final summary. To address this, I plan to introduce stricter prompt templates and a simple processing layer to clean up any anomalous outputs. There is also a limit on the size of the combined articles that can be sent to the AI for summarisation. As a result, the summary sometimes ends up relying on a single source. I plan to fix this by summarising articles individually and then generating a combined summary. This will ensure multiple sources are represented and reduce single source bias.
 ***
