@@ -1,5 +1,5 @@
 # 🤖📰 AI-Driven Daily News Digest 
-> An AI-powered news digest using live feeds from trusted news sources.
+> **An AI-powered news digest using live feeds from trusted news sources.**
 ***
 ## 🧭 About this project
 This is a small web application that gathers news from RSS feeds, scrapes the articles, and sends the text to an AI model to generate a short news summary. User selects a region and topic, and the backend fetches the feeds, parses the XML, gets the article text then AI turns it into a simple summary. 
