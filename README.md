@@ -36,3 +36,4 @@ The AI occasionally over explains, adding extra details that aren't unnecessary 
 ### Notes
 - To determine the most trusted new sources, I used a you.gov article entitle Trust in Media 2025: Which news sources Americans use and trust. I only considered popular news outlets with a +10 or more.
 - I used AI and common online resources whenever I hit concepts I was unfamiliar with. 
+
