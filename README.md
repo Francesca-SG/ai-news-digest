@@ -1,4 +1,4 @@
-# AI-Driven News Digest 
+# AI-Driven Daily News Digest 
 > An AI-powered news digest using live feeds from trusted news sources.
 ***
 ### About this project
@@ -11,23 +11,25 @@ To determine the most trusted new sources, I used a you.gov article entitle Trus
 - Groq API
 - JavaScript and HTML for frontend
 
-### How it works
+## How it works
 - **Feeds:** Holds a dictionary of RSS URLS grouped by region and topic.
 - **Fetch RSS:** Takes those RSS urls, downloads the XML, and pulls article metadata. I currently pull more metadata than I use because I have other features in mind.
 - **Summarise:** Uses each article's URL to scrape the webpage, extract the text and combine pieces of each article. 
 - **App:** Ties everything together. Gets the feeds, fetches the articles, scrapes them and prepares the text for summarisation.
 - **Flask Server + Frontend:** A simple API endpoint and minimal HTML/JavaScript that let's users select a region/topic and generate the digest.
 
-### Skills Demonstrated
+## Skills Demonstrated
 - Strengthened my understanding of OOP to break project into small, focused classes, each with one specific task.
 - Working with core data structures like lists and dictionaries, moving data cleanly through the pipeline.
 - Applied basic algorythmic patterns including iteration and aggregation. Turning RSS data into usable text.
 - Intergrated an AI model into a pipeline.
 - Tied everything together into a full-stack setup. 
 
-### Challenges I worked through
+## Challenges I worked through
 - Finding reliable RSS feeds was difficult, as many major outlets don't provide them, made consistent coverage difficult.
 - Accidentally sending far more text than the API allowed. To fix this I limited the generated text from uncapped to 350.
 
-### Future plans
+## Future plans
 I want to deploy this app to a proper website, improve the codebase, make better use of the metadata I'm currently collecting, and extend the range of regions and topics to generate richer digests. As the project grows, these changes will help reinforce my understanding of OOP and give me more experience with deploying and maintaining a small web application. 
+
+There are several quirks that needs to be addressed with the 
