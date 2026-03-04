@@ -6,7 +6,7 @@ This is a small web application that gathers news from RSS feeds, scrapes the ar
 
 To determine the most trusted new sources, I used a you.gov article entitle Trust in Media 2025: Which news sources Americans use and trust. I only considered popular news outlets with a +10 or more.
 
-### Tech Stack
+## Tech Stack
 - Python (Flask, BeautifulSoup, requests, xml.etree)
 - Groq API
 - JavaScript and HTML for frontend
