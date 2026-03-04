@@ -2,13 +2,12 @@
 > An AI-powered news digest using live feeds from trusted news sources.
 ***
 ## 🧭 About this project
-This is a small web application that gathers news from RSS feeds, scrapes the articles, and sends the text to an AI model to generate a short news summary. User selects a region and topic, and the backend fetches the feeds, parses the XML, gets the article text then AI turns it into a simple summary. I used AI and common online resources whenever I hit concepts I was unfamiliar with. 
+This is a small web application that gathers news from RSS feeds, scrapes the articles, and sends the text to an AI model to generate a short news summary. User selects a region and topic, and the backend fetches the feeds, parses the XML, gets the article text then AI turns it into a simple summary. 
 
-To determine the most trusted new sources, I used a you.gov article entitle Trust in Media 2025: Which news sources Americans use and trust. I only considered popular news outlets with a +10 or more.
 ***
 ## 🧰 Tech Stack
 - Python (Flask, BeautifulSoup, requests, xml.etree)
-- Groq API
+- Llama 3.3 (GROQ API)
 - JavaScript and HTML for frontend
 ***
 ## How it works
@@ -32,4 +31,8 @@ To determine the most trusted new sources, I used a you.gov article entitle Trus
 ## 🚀 Future plans
 I want to deploy this app to a proper website, improve the codebase, make better use of the metadata I'm currently collecting, and extend the range of regions and topics to generate richer digests. As the project grows, these changes will help reinforce my understanding of OOP and give me more experience with deploying and maintaining a small web application. 
 
-There are several quirks that need to be addressed with the generated summaries. 
+The AI occasionally over explains, adding extra details that aren't unnecessary for the final summary. To address this, I plan to introduce stricter prompt templates and a simple processing layer to clean up any anomalous outputs.
+
+### Notes
+- To determine the most trusted new sources, I used a you.gov article entitle Trust in Media 2025: Which news sources Americans use and trust. I only considered popular news outlets with a +10 or more.
+- I used AI and common online resources whenever I hit concepts I was unfamiliar with. 
