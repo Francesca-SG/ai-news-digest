@@ -35,6 +35,7 @@ The AI occasionally over explains, adding extra details that aren't necessary fo
 ***
 ## 🖼️ Screenshots
 Below are images of the application in action. 
+It isn't pretty but the foundation is there.
 <img width="741" height="199" alt="Screenshot 2026-03-04 075515" src="https://github.com/user-attachments/assets/177885ec-eedd-47d0-8c24-77bcd7efdd00" />
 <img width="739" height="175" alt="Screenshot 2026-03-04 075634" src="https://github.com/user-attachments/assets/28baa13f-e6e9-4826-a4b6-c68d1c22b177" />
 ***
