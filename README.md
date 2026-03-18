@@ -34,8 +34,7 @@ I want to deploy this app to a proper website, as well as improve the overall lo
 The AI occasionally over explains, adding extra details that aren't necessary for the final summary. To address this, I plan to introduce stricter prompt templates and a simple processing layer to clean up any anomalous outputs. There is also a limit on the size of the combined articles that can be sent to the AI for summarisation. As a result, the summary sometimes ends up relying on a single source. I plan to fix this by summarising articles individually and then generating a combined summary. This will ensure multiple sources are represented and reduce single source bias.
 ***
 ## 🖼️ Screenshots
-Below are images of the application in action. 
-It isn't pretty but the foundation is there.
+Below are images of the application in action. They aren't pretty but the foundation is there to be built upon.
 <img width="741" height="199" alt="Screenshot 2026-03-04 075515" src="https://github.com/user-attachments/assets/177885ec-eedd-47d0-8c24-77bcd7efdd00" />
 <img width="739" height="175" alt="Screenshot 2026-03-04 075634" src="https://github.com/user-attachments/assets/28baa13f-e6e9-4826-a4b6-c68d1c22b177" />
 ***
